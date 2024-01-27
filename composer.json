@@ -1,0 +1,19 @@
+{
+    "name": "manuk/hilda-bril",
+    "description": "web para diseñadora Hilda Bril",
+    "autoload": {
+        "psr-4": {
+            "Manuk\\HildaBril\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manuel0311Nan",
+            "email": "manuzz3112@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "twbs/bootstrap": "5.3.2"
+    }
+}
