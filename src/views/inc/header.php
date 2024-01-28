@@ -22,7 +22,7 @@
 <header class="pos-f-t ">
   <nav class="navbar navbar-light bg-light navColor">
     <div class="navDisposition">
-        <a href="#" class="t">Instagram</a>
+        <a href="#" class="t"><img src="<?= URL . '/public/assets/images/instagram.png' ?>" alt="instagramLogo" width="50"></a>
         <a href="inicio"><h1 class="navFont text-center font-size-xl">Hilda Bril</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

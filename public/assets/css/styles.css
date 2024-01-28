@@ -16,8 +16,13 @@
 a:hover {
   text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--fontPrimary) !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontPrimary) !important;
 }
 .menuDesplegable {
   background-color: var(--colorPrimary);
@@ -40,39 +45,47 @@ h1,h2,h3,h4,h5,h6{
   text-decoration: none;
 }
 /* Footer */
-footer{
-    padding: 25px;
-    border-top: 1px solid var(--colorButton);
+footer {
+  padding: 25px;
+  border-top: 1px solid var(--colorButton);
 }
-.apartadosFooter{
-    font-family: var(--fontPrimary) !important;
-    margin-top: 5px;
-    color: var(--colorButton);
-    text-decoration: none;
+.apartadosFooter {
+  font-family: var(--fontPrimary) !important;
+  margin-top: 5px;
+  color: var(--colorButton);
+  text-decoration: none;
 }
-.apartadosFooter:hover{
-    color: var(--colorDetails2) !important;
+.apartadosFooter:hover {
+  color: var(--colorDetails2) !important;
 }
-.buttonNewsletter{
-    background-color: var(--colorButton);
-    text-decoration: none;
-    color: var(--colorPrimary);
-    padding: 5px;
-    text-align: center;
-    margin: auto 0;
-    margin-top:15px;
-    font-family: var(--fontPrimary) !important;
-    border-radius: 0px;
-    font-weight:600 ;
+.buttonNewsletter {
+  background-color: var(--colorButton);
+  text-decoration: none;
+  color: var(--colorPrimary);
+  padding: 5px;
+  text-align: center;
+  margin: auto 0;
+  margin-top: 15px;
+  font-family: var(--fontPrimary) !important;
+  border-radius: 0px;
+  font-weight: 600;
 }
 .buttonNewsletter:hover {
-    color: var(--colorButton);
-    background-color: var(--colorDetails2);
-    transition: ease-in-out 0.2s;
-  }
+  color: var(--colorButton);
+  background-color: var(--colorDetails2);
+  transition: ease-in-out 0.2s;
+}
 /* Home */
 .fotoPortada {
   width: 100%;
+}
+.textoFotoPortada{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: none;
 }
 .fotosHome {
   width: 100%;
@@ -86,6 +99,7 @@ footer{
   margin-top: 5px;
   color: var(--colorButton);
   text-decoration: none;
+  font-size: 80px !important;
 }
 .elemSeccion:hover .fotosHome {
   filter: grayscale(80%);
@@ -100,6 +114,8 @@ footer{
   text-align: center;
   margin: auto 0;
   font-family: var(--fontPrimary) !important;
+  font-size: 30px !important;
+  padding: 10px;
 }
 .btnInstagram:hover {
   color: var(--colorButton);
@@ -111,6 +127,7 @@ footer{
   margin-top: 5px;
   color: var(--colorButton);
   text-decoration: none;
+  font-size: 50px !important;
 }
 ul {
   color: white;
@@ -143,13 +160,46 @@ input {
   border-radius: 0px !important;
 }
 .buttonContact:hover {
-    color: var(--colorButton) !important;
-    background-color: var(--colorDetails2) !important;
-    transition: ease-in-out 0.2s;
+  color: var(--colorButton) !important;
+  background-color: var(--colorDetails2) !important;
+  transition: ease-in-out 0.2s;
 }
-.infoContact{
-    padding: 8px;
-    color: var(--colorButton) !important;
-    font-family: var(--fontPrimary) !important;
-    text-align: start;
+.infoContact {
+  padding: 8px;
+  color: var(--colorButton) !important;
+  font-family: var(--fontPrimary) !important;
+  text-align: start;
+}
+@media (max-width: 450px) {
+  .nomSeccion {
+    font-size: 40px !important;
+  }
+  .titleRrss {
+    font-size: 20px !important;
+  }
+  .textButton {
+    font-size: 20px !important;
+    padding: 10px;
+  }
+  .btnInstagram {
+    padding: 0px;
+  }
+  .tercerArticle {
+    padding: 10px;
+  }
+}
+@media (min-width: 451px) and (max-width: 1080px) {
+  .nomSeccion {
+    font-size: 50px !important;
+  }
+  .titleRrss {
+    font-size: 20px !important;
+  }
+  .textButton {
+    font-size: 20px !important;
+    padding: 10px;
+  }
+  .btnInstagram {
+    padding: 0px;
+  }
 }
