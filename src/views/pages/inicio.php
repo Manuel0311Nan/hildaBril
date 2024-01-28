@@ -1,22 +1,24 @@
 <?php require_once APP . '/views/inc/header.php' ?>
 <section>
     <article style="position: relative;">
-        <img class="fotoPortada" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="fotoPortada">
-        <div class="textoFotoPortada" id="textoFotoPortada">
-        Hilda Bril
+        <img class="fotoPortada" id="fotoPortada" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="fotoPortada">
+        <div class="textoFotoPortada w-100" id="textoFotoPortada">
+            <p class="text-center">        Hilda Bril</p>
+            <p class="text-center">       Diseños a tu medida</p>
+
     </div>
     </article>
     <article class="mt-5">
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <a href="reciclaje" class="elemSeccion">
-                    <div class="animate__animated animate__backInUp">
+                    <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="reciclaje">
                         <h2 class="nomSeccion text-center">Reciclaje de Vestidos</h2>
                     </div>
                 </a>
                 <a href="tenido" class="elemSeccion">
-                    <div class="mt-md-5 mt-0 animate__animated animate__backInUp">
+                    <div class="mt-md-5 mt-0 imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/teñido.jpg' ?>"alt="teñido">
                         <h2 class="nomSeccion text-center"> Teñido de Telas</h2>
                     </div>
@@ -24,7 +26,7 @@
             </div>
             <div class="col-md-6">
                 <a href="square" class="elemSeccion">
-                    <div class="animate__animated animate__backInUp">
+                    <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/square.jpg' ?>" alt="square">
                         <h2 class="nomSeccion text-center">Vestidos de Square de Noche</h2>
                     </div>
