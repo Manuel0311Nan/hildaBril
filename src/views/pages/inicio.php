@@ -1,23 +1,24 @@
 <?php require_once APP . '/views/inc/header.php' ?>
 <section>
-    <article style="position: relative;">
-        <img class="fotoPortada" id="fotoPortada" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="fotoPortada">
+    <article  style="position: relative;">
+    <div class="fotoBackground" id="fotoPortada">
+        <!-- <img class="fotoPortada" id="fotoPortada" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="fotoPortada"> -->
         <div class="textoFotoPortada w-100" id="textoFotoPortada">
-            <p class="text-center">        Hilda Bril</p>
-            <p class="text-center">       Diseños a tu medida</p>
-
+            <p class="text-center">Hilda Bril</p>
+            <p class="text-center">Diseños a tu medida</p>
+        </div>
     </div>
     </article>
     <article class="mt-5">
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
-                <a href="reciclaje" class="elemSeccion">
+                <a href="reciclaje" class="elemSeccion" id="imagenInicioUno">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="reciclaje">
                         <h2 class="nomSeccion text-center">Reciclaje de Vestidos</h2>
                     </div>
                 </a>
-                <a href="tenido" class="elemSeccion">
+                <a href="tenido" class="elemSeccion"  id="imagenInicioDos">
                     <div class="mt-md-5 mt-0 imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/teñido.jpg' ?>"alt="teñido">
                         <h2 class="nomSeccion text-center"> Teñido de Telas</h2>
@@ -25,7 +26,7 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <a href="square" class="elemSeccion">
+                <a href="square" class="elemSeccion"  id="imagenInicioTres">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/square.jpg' ?>" alt="square">
                         <h2 class="nomSeccion text-center">Vestidos de Square de Noche</h2>

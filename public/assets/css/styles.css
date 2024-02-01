@@ -9,7 +9,7 @@
   --colorButton: #382c1e;
   --colorDetails: #efb810;
   --colorDetails2: #a0873c;
-  /* --fontPrimary:'Great Vibes', cursive; */
+  --fontTitleSection:'Great Vibes', cursive;
   --fontPrimary: "Montserrat", sans-serif;
   /* --fontSecondary: 'Charm', cursive; */
 }
@@ -76,6 +76,14 @@ footer {
   transition: ease-in-out 0.2s;
 }
 /* Home */
+.fotoBackground {
+  background-image: url("../images/fotoPortada2.jpg");
+  background-size: cover; /* Cubrir todo el div */
+  background-position: center; /* Centrar la imagen */
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  transition:ease-in-out .9s;
+}
 .fotoPortada {
   width: 100%;
 }
@@ -89,14 +97,14 @@ footer {
   transform: translate(-50%, -50%);
   color: white;
   display: none;
-  font-weight: 800;
+  font-weight:bold;
   font-size: 100px !important;
   transition:ease-in-out .9s;
   font-family: var(--fontPrimary) !important;
+  background-color: #a0873c7e;
 }
 .texto-visible {
   display: block;
-  /* Otros estilos para tu texto aquí */
 }
 
 .fotosHome {
@@ -113,15 +121,16 @@ footer {
   text-decoration: none;
   font-size: 80px !important;
 }
-/* .elemSeccion{
+.elemSeccion{
   display: none;
-} */
+  transition:ease-in-out 1.5s;
+} 
 .elemSeccion:hover .fotosHome {
   filter: grayscale(80%);
 }
-/* .elemSeccionVisible{
-  display: block;
-} */
+.elemSeccionAppear{
+  display:block;
+}
 .tercerArticle {
   background-color: var(--colorPrimary);
 }
@@ -188,6 +197,31 @@ input {
   font-family: var(--fontPrimary) !important;
   text-align: start;
 }
+
+.fotoBackgroundReciclaje{
+  background-image: url("../images/reciclaje.jpg");
+  background-size: cover; /* Cubrir todo el div */
+  background-position: center; /* Centrar la imagen */
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  transition:ease-in-out .9s;
+}
+.titleSection{
+  font-family: var(--fontTitleSection) !important;
+  background-color: var(--colorDetails);
+}
+.textDescription{
+  text-align: start;
+  margin: auto 0;
+}
+.textDescription:nth-child(2){
+  text-align: end;
+}
+/* .titleSectionSticky {
+  position: sticky;
+  top: 0;
+
+} */
 @media (max-width: 450px) {
   .nomSeccion {
     font-size: 40px !important;
@@ -205,6 +239,12 @@ input {
   .tercerArticle {
     padding: 10px;
   }
+  .fotoBackground {
+    background-image: url("../images/square.jpg");
+  }
+  .textoFotoPortada{
+    font-size: 55px !important;
+  }
 }
 @media (min-width: 451px) and (max-width: 1080px) {
   .nomSeccion {
@@ -219,5 +259,12 @@ input {
   }
   .btnInstagram {
     padding: 0px;
+  }
+  .fotoBackground {
+    background-image: url("../images/square.jpg");
+ /* Ajusta la altura según tus necesidades */
+  }
+  .textoFotoPortada{
+    font-size: 60px !important;
   }
 }
