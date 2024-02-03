@@ -24,12 +24,14 @@ window.addEventListener('scroll', function() {
     var imagenUno = document.getElementById('imagenInicioUno');
     var imagenDos = document.getElementById('imagenInicioDos');
     var imagenTres = document.getElementById('imagenInicioTres');
+    var imagenNovias = document.getElementById('imagenInicioNovia');
+
     if (scrollPosition > 750) { 
         imagenDos.classList.add('animate__animated');
         imagenDos.classList.add('animate__fadeInUp');
         imagenDos.classList.add('elemSeccionAppear');
 
-    } else if(scrollPosition > 250) {
+    } else if(scrollPosition > 350) {
         imagenUno.classList.add('animate__animated');
         imagenUno.classList.add('animate__fadeInUp');
         imagenUno.classList.add('elemSeccionAppear');
@@ -37,8 +39,14 @@ window.addEventListener('scroll', function() {
         imagenTres.classList.add('animate__animated');
         imagenTres.classList.add('animate__fadeInUp');
         imagenTres.classList.add('elemSeccionAppear');
+    }else if(scrollPosition > 150) {
+        imagenNovias.classList.add('animate__animated');
+        imagenNovias.classList.add('animate__fadeInUp');
+        imagenNovias.classList.add('elemSeccionAppear');
+
     }else{
         imagenUno.classList.remove('elemSeccionAppear');
+        imagenNovias.classList.remove('elemSeccionAppear');
         imagenTres.classList.remove('elemSeccionAppear');
         imagenDos.classList.remove('elemSeccionAppear');
     }

@@ -100,7 +100,7 @@ footer {
   font-weight:bold;
   font-size: 100px !important;
   transition:ease-in-out .9s;
-  font-family: var(--fontPrimary) !important;
+  font-family: var(--fontTitleSection) !important;
   background-color: #a0873c7e;
 }
 .texto-visible {
@@ -206,10 +206,6 @@ input {
   height: 100vh; /* Ajusta la altura según tus necesidades */
   transition:ease-in-out .9s;
 }
-.titleSection{
-  font-family: var(--fontTitleSection) !important;
-  background-color: var(--colorDetails);
-}
 .textDescription{
   text-align: start;
   margin: auto 0;
@@ -222,6 +218,31 @@ input {
   top: 0;
 
 } */
+.galeria-imagen {
+  width: 100%;
+  height: 200px;  
+  object-fit: cover;
+}
+.imgGallery{
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 100vh;
+  transition:ease-in-out .9s;
+}
+.img1{
+  background-image: url("../images/reciclaje.jpg");
+}
+.img2{
+  background-image: url("../images/square.jpg");
+}
+.img3{
+  background-image: url("../images/teñido.jpg");
+}
+.img4{
+  background-image: url("../images/reciclaje.jpg");
+}
+
 @media (max-width: 450px) {
   .nomSeccion {
     font-size: 40px !important;
@@ -245,6 +266,24 @@ input {
   .textoFotoPortada{
     font-size: 55px !important;
   }
+  .img1{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/reciclaje.jpg");
+  }
+  .img2{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/fotoPortada.jpg");
+  }
+  .img3{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/fotoPortada2.jpg");
+  }
+  .img4{
+    display: none;
+  }
 }
 @media (min-width: 451px) and (max-width: 1080px) {
   .nomSeccion {
@@ -266,5 +305,23 @@ input {
   }
   .textoFotoPortada{
     font-size: 60px !important;
+  }
+  .img1{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/reciclaje.jpg");
+  }
+  .img2{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/fotoPortada.jpg");
+  }
+  .img3{
+    height: 25vh;
+    margin: 10px 0;
+    background-image: url("../images/fotoPortada2.jpg");
+  }
+  .img4{
+    display: none;
   }
 }

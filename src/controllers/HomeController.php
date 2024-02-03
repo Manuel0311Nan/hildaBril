@@ -35,6 +35,14 @@ class HomeController extends Control
     ];
     $this->load_view('reciclaje', $datos);
   }
+  public function novia()
+  {
+    $datos = [
+      "title" => "Envíanos tu idea",
+      "description" => "Galería de vestidos de novia"
+    ];
+    $this->load_view('novia', $datos);
+  }
   public function contacto()
   {
     $datos = [

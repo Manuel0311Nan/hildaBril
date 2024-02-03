@@ -32,11 +32,11 @@
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="menuDesplegable">
       <ul class="d-flex flex-column justify-content-end align-items-end">
-        <li><a href="#"> Vestidos de novia</a></li>
-        <li><a href="#"> Teñido de vestidos</a></li>
-        <li><a href="#"> Vestidos de square de noche</a></li>
-        <li><a href="#"> Reciclaje de prendas</a></li>
-        <li><a href="#"> Contacto</a></li>
+        <li><a href="novia"> Vestidos de novia</a></li>
+        <li><a href="tenido"> Teñido de vestidos</a></li>
+        <li><a href="square"> Vestidos de square de noche</a></li>
+        <li><a href="reciclaje"> Reciclaje de prendas</a></li>
+        <li><a href="contacto"> Contacto</a></li>
       </ul>
     </div>
   </div>

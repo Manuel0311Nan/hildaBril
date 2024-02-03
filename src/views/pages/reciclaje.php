@@ -3,7 +3,7 @@
     <article  style="position: relative;">
     <div class="fotoBackgroundReciclaje" id="fotoPortada">
         <div class="textoFotoPortada w-100" id="textoFotoPortada" >
-            <h1 class="text-center titleSection" id="titleSection" style=" font-size: 100px">Reciclaje de vestidos</h1>
+            <p class="text-center titleSection" id="titleSection">Reciclaje de vestidos</p>
         </div>
     </div>
     <!-- <h1 class="text-center titleSection" style=" font-size: 100px">Reciclaje de vestidos</h1> -->
@@ -25,8 +25,18 @@
             </div>
         </div>
     </article>
-    <article class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-2 tercerArticle">
-       
+    <article class="my-2">
+        <h3 class="text-center"style=" font-size: 50px">Galeria</h3>
+        <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="col-md-3 imgGallery img1">
+            </div>
+            <div class="col-md-3 imgGallery img2">
+            </div>
+            <div class="col-md-3 imgGallery img3">
+            </div>
+            <div class="col-md-3 imgGallery img4">
+            </div>
+        </div>
     </article>
 </section>
 <?php require_once APP . '/views/inc/footer.php' ?>

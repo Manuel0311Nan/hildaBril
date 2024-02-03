@@ -2,7 +2,6 @@
 <section>
     <article  style="position: relative;">
     <div class="fotoBackground" id="fotoPortada">
-        <!-- <img class="fotoPortada" id="fotoPortada" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="fotoPortada"> -->
         <div class="textoFotoPortada w-100" id="textoFotoPortada">
             <p class="text-center">Hilda Bril</p>
             <p class="text-center">Diseños a tu medida</p>
@@ -10,7 +9,15 @@
     </div>
     </article>
     <article class="mt-5">
+            <a href="novia" class="elemSeccion row mb-3 mx-auto"  id="imagenInicioNovia">
+                <div class="imagenOptions d-flex flex-column flex-md-row justify-content-center align-items-center mx-auto">
+                    <div class="col-md-7"> <img class="fotosHome" src="<?= URL . '/public/assets/images/fotoPortada.jpg' ?>" alt="square"></div>
+                    <div class="col-md-4">  <h2 class="nomSeccion text-center">Vestidos de Novia</h2></div>
+
+                </div>
+            </a>
         <div class="row mx-auto">
+
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <a href="reciclaje" class="elemSeccion" id="imagenInicioUno">
                     <div class="imagenOptions">

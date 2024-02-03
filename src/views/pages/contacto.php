@@ -1,8 +1,8 @@
 <?php require_once APP . '/views/inc/header.php' ?>
 <h1 class="text-center">Envíanos tu idea</h1>
 <section class="row mb-5">
-    <article class="col-6">
-        <form action="#" method="POST" class="d-flex flex-column w-50 m-auto">
+    <article class="col-md-6">
+        <form action="#" method="POST" class="d-flex flex-column w-75 m-auto">
             <h2 class="text-center">Contact Us</h2>
             <input class="inputContact" type="text" placeholder="Name" required>
             <input class="inputContact" pattern="\[0-9]{9}" type="tel" placeholder="+00 600 000 000" required>
@@ -11,7 +11,7 @@
             <button class=" btn w-50 buttonContact">Send Message</button>
         </form>
     </article>
-    <article class="col-6 d-flex flex-column align-content-center">
+    <article class="col-md-6 mt-md-0 mt-2 d-flex flex-column align-content-center">
         <h2 class="text-center">Our Info</h2>
         <div class="d-flex flex-column">
             <h3 class="infoContact">Hilda Bril</h3>

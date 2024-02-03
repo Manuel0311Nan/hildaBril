@@ -3,7 +3,7 @@
     <article  style="position: relative;">
     <div class="fotoBackgroundReciclaje" id="fotoPortada">
         <div class="textoFotoPortada w-100" id="textoFotoPortada" >
-            <p class="text-center titleSection" id="titleSection">Vestidos de Square</p>
+            <p class="text-center titleSection" id="titleSection">Vestidos de novia</p>
         </div>
     </div>
     <!-- <h1 class="text-center titleSection" style=" font-size: 100px">Reciclaje de vestidos</h1> -->
