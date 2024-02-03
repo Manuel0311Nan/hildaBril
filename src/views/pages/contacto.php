@@ -17,9 +17,7 @@
             <h3 class="infoContact">Hilda Bril</h3>
             <h3 class="infoContact">600 000 000</h3>
             <h3 class="infoContact">hildabril@gmail.com</h3>
-            <h3 class="infoContact">Calle ...</h3>
             <h3 class="infoContact">Madrid / 28047</h3>
-            <h3 class="infoContact">España</h3>
         </div>
     </article>
 </section>

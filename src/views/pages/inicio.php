@@ -4,7 +4,7 @@
     <div class="fotoBackground" id="fotoPortada">
         <div class="textoFotoPortada w-100" id="textoFotoPortada">
             <p class="text-center">Hilda Bril</p>
-            <p class="text-center">Diseños a tu medida</p>
+            <p class="text-center">Diseños de alta costura a tu medida</p>
         </div>
     </div>
     </article>
@@ -12,7 +12,7 @@
             <a href="novia" class="elemSeccion row mb-3 mx-auto"  id="imagenInicioNovia">
                 <div class="imagenOptions d-flex flex-column flex-md-row justify-content-center align-items-center mx-auto">
                     <div class="col-md-7"> <img class="fotosHome" src="<?= URL . '/public/assets/images/fotoPortada.jpg' ?>" alt="square"></div>
-                    <div class="col-md-4">  <h2 class="nomSeccion text-center">Vestidos de Novia</h2></div>
+                    <div class="col-md-4">  <h2 class="nomSeccion text-center">Vestidos de Novia de alta costura</h2></div>
 
                 </div>
             </a>
@@ -28,7 +28,7 @@
                 <a href="tenido" class="elemSeccion"  id="imagenInicioDos">
                     <div class="mt-md-5 mt-0 imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/teñido.jpg' ?>"alt="teñido">
-                        <h2 class="nomSeccion text-center"> Teñido de Telas</h2>
+                        <h2 class="nomSeccion text-center"> Teñido de Telas naturales</h2>
                     </div>
                 </a>
             </div>
