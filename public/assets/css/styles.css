@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--fontSecondary) !important;
+
+}
+html{
+  scroll-behavior: smooth;
 }
 :root {
   --colorPrimary: #e1dfd1;
@@ -48,6 +52,11 @@ h6 {
 footer {
   padding: 25px;
   border-top: 1px solid var(--colorButton);
+
+}
+.footerArticle{
+  background-color: var(--colorPrimary);
+  z-index: 1000 !important;
 }
 .apartadosFooter {
   font-family: var(--fontPrimary) !important;
@@ -127,6 +136,7 @@ footer {
 } 
 .elemSeccion:hover .fotosHome {
   filter: grayscale(80%);
+  transform: scale(1);
 }
 .elemSeccionAppear{
   display:block;
@@ -227,7 +237,7 @@ input {
   background-size: cover;
   background-position: center; 
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   transition:ease-in-out .9s;
 }
 .img1{

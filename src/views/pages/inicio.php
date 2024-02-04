@@ -17,7 +17,6 @@
                 </div>
             </a>
         <div class="row mx-auto">
-
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <a href="reciclaje" class="elemSeccion" id="imagenInicioUno">
                     <div class="imagenOptions">

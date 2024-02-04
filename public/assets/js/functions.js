@@ -19,7 +19,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-window.addEventListener('scroll', function() {
+/*window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY || document.documentElement.scrollTop;
     var imagenUno = document.getElementById('imagenInicioUno');
     var imagenDos = document.getElementById('imagenInicioDos');
@@ -50,4 +50,5 @@ window.addEventListener('scroll', function() {
         imagenTres.classList.remove('elemSeccionAppear');
         imagenDos.classList.remove('elemSeccionAppear');
     }
-});
+});*/
+
