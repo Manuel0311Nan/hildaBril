@@ -28,11 +28,11 @@
     <article class="my-2">
         <h3 class="text-center"style=" font-size: 50px">Galeria</h3>
         <div class="d-flex flex-column imgGalleryDiv">
-            <div class=" imgGallery img1" id="img1">
+            <div class="imgGallery img1" id="img1">
             </div>
             <div class="imgGallery img2" id="img2">
             </div>
-            <div class=" imgGallery img3" id="img3">
+            <div class="imgGallery img3" id="img3">
             </div>
             <div class="imgGallery img4" id="img4">
             </div>

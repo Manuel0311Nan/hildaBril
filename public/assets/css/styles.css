@@ -237,7 +237,7 @@ input {
   background-size: cover;
   background-position: center; 
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   transition:ease-in-out .9s;
 }
 .img1{
@@ -277,22 +277,13 @@ input {
     font-size: 55px !important;
   }
   .img1{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/reciclaje.jpg");
   }
   .img2{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/fotoPortada.jpg");
   }
   .img3{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/fotoPortada2.jpg");
-  }
-  .img4{
-    display: none;
   }
 }
 @media (min-width: 451px) and (max-width: 1080px) {
@@ -317,21 +308,12 @@ input {
     font-size: 60px !important;
   }
   .img1{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/reciclaje.jpg");
   }
   .img2{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/fotoPortada.jpg");
   }
   .img3{
-    height: 25vh;
-    margin: 10px 0;
     background-image: url("../images/fotoPortada2.jpg");
-  }
-  .img4{
-    display: none;
   }
 }
