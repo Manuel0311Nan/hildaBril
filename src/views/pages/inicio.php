@@ -9,29 +9,23 @@
     </div>
     </article>
     <article class="mt-5">
-            <a href="novia" class="elemSeccion row mb-3 mx-auto"  id="imagenInicioNovia">
-                <div class="imagenOptions d-flex flex-column flex-md-row justify-content-center align-items-center mx-auto">
-                    <div class="col-md-7"> <img class="fotosHome" src="<?= URL . '/public/assets/images/fotoPortada.jpg' ?>" alt="square"></div>
-                    <div class="col-md-4">  <h2 class="nomSeccion text-center">Vestidos de Novia de alta costura</h2></div>
-
-                </div>
-            </a>
+           
         <div class="row mx-auto">
-            <div class="col-md-6 d-flex flex-column align-items-end">
+            <div class="col-md-6 d-flex flex-column align-items-end ">
                 <a href="reciclaje" class="elemSeccion" id="imagenInicioUno">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="reciclaje">
                         <h2 class="nomSeccion text-center">Reciclaje de Vestidos</h2>
                     </div>
                 </a>
-                <a href="tenido" class="elemSeccion"  id="imagenInicioDos">
-                    <div class="mt-md-5 mt-0 imagenOptions">
-                        <img class="fotosHome" src="<?= URL . '/public/assets/images/teñido.jpg' ?>"alt="teñido">
-                        <h2 class="nomSeccion text-center"> Teñido de Telas naturales</h2>
+                <a href="novia" class="elemSeccion"  id="imagenInicioDos">
+                    <div class="imagenOptions">
+                        <img class="fotosHome" src="<?= URL . '/public/assets/images/fotoPortada2.jpg' ?>" alt="reciclaje">
+                        <h2 class="nomSeccion text-center">Vestidos de novia de alta costura</h2>
                     </div>
                 </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <a href="square" class="elemSeccion"  id="imagenInicioTres">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/square.jpg' ?>" alt="square">

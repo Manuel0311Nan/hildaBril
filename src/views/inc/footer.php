@@ -2,14 +2,17 @@
 </main>
 <footer class=" footerArticle">
     <div class=" d-flex flex-column flex-lg-row justify-content-center align-items-center">
-        <div class="col-lg-6 ">
+        <div class="col-lg-4 ">
             <h4 class="text-center" style="font-size: 50px;">Redes Sociales</h4>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Instagram</h4></a>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Facebook</h4></a>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Pinterest</h4></a>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Twitter</h4></a>
         </div>
-        <div class="col-lg-6 ">
+        <div class="col-lg-3 ">
+        <a href="inicio"><h1 class="navFont text-center font-size-xl">Hilda Bril</h1></a>
+        </div>
+        <div class="col-lg-4 ">
         <h4 class="text-center" style="font-size: 50px;">Servicios</h4>
            <a href="novia"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Vestidos de novia</h4></a>
            <a href="reciclaje"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Reciclaje de vestidos</h4></a>

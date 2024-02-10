@@ -1,13 +1,20 @@
 <?php require_once APP . '/views/inc/header.php' ?>
 <h1 class="text-center">Envíanos tu idea</h1>
-<section class="row mb-5">
+<section class="row mb-5 ">
     <article class="col-md-6">
-        <form action="#" method="POST" class="d-flex flex-column w-75 m-auto">
+        <form action="sendemail.php" method="POST" class="d-flex flex-column w-75 m-auto">
             <h2 class="text-center">Contact Us</h2>
-            <input class="inputContact" type="text" placeholder="Name" required>
-            <input class="inputContact" pattern="\[0-9]{9}" type="tel" placeholder="+00 600 000 000" required>
-            <input class="inputContact" type="email" placeholder="Email" required>
-            <textarea class="textareaContact px-2" name="Message" id="message" placeholder="Message" cols="30" rows="5"></textarea>
+            <input class="inputContact" type="text" placeholder="Name" name="name" required>
+            <input class="inputContact" pattern="[0-9]{9}" type="tel" name="phone" placeholder="XXXXXXXXX" required>
+            <input class="inputContact" type="email" placeholder="Email" name="email" required>
+            <select class="mt-2" name="option" id="opcionConsulta">
+                <option selected disabled>Escoja el tipo de consulta</option>
+                <option value="general" >Consulta General</option>
+                <option value="novia">Vestidos de novia</option>
+                <option value="square">Vestidos de Square de noche</option>
+                <option value="reciclaje">Reciclaje de telas</option>
+            </select>
+            <textarea class="textareaContact px-2" id="message" name="message" placeholder="Message" cols="30" rows="5"></textarea>
             <button class=" btn w-50 buttonContact">Send Message</button>
         </form>
     </article>

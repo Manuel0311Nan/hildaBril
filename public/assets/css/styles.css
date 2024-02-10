@@ -44,7 +44,7 @@ h6 {
   background-color: var(--colorPrimary) !important;
 }
 .navFont {
-  font-family: var(--fontPrimary) !important;
+  font-family: var(--fontTitleSection) !important;
   color: var(--colorButton) !important;
   text-decoration: none;
 }
