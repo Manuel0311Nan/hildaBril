@@ -286,6 +286,22 @@ text-align: start;
   background-image: url("../images/reciclaje.jpg");
 }
 
+.btnContacto {
+  background-color: var(--colorButton);
+  text-decoration: none;
+  color: var(--colorPrimary);
+  text-align: center;
+  margin: auto 0;
+  font-family: var(--fontPrimary) !important;
+  font-size: 30px !important;
+  padding: 10px;
+}
+.btnContacto:hover {
+  color: var(--colorButton);
+  background-color: var(--colorDetails2);
+  transition: ease-in-out 0.2s;
+}
+
 @media (max-width: 450px) {
   .nomSeccion {
     font-size: 40px !important;
@@ -311,12 +327,25 @@ text-align: start;
   }
   .img1{
     background-image: url("../images/reciclaje.jpg");
+    background-position: 25% 75%;
   }
   .img2{
     background-image: url("../images/fotoPortada.jpg");
+    background-position: 75% 75%;
   }
   .img3{
     background-image: url("../images/fotoPortada2.jpg");
+    background-position: 50% 1%;
+  }
+  .textDescription{
+    text-align: start;
+    margin: 10px;
+    font-size:  18px !important;
+    font-family: var(--fontPrimary) !important;
+  }
+  .btnContacto {
+    text-align: center;
+    margin: 10px auto;
   }
 }
 @media (min-width: 451px) and (max-width: 1080px) {
@@ -348,5 +377,15 @@ text-align: start;
   }
   .img3{
     background-image: url("../images/fotoPortada2.jpg");
+  }
+  .textDescription{
+    text-align: start;
+    margin: 10px;
+    font-size:  20px !important;
+    font-family: var(--fontPrimary) !important;
+  }
+  .btnContacto {
+    text-align: center;
+    margin: 10px auto;
   }
 }

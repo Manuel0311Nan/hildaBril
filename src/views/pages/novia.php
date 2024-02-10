@@ -21,9 +21,9 @@
                 <p class="textDescription text-center">
                 Mi misión es que el día de la boda sea único e inolvidable.
                 </p>
-                <a href="contacto" class="btnInstagram w-75 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
+                <a href="contacto" class="btnContacto w-75 "> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-lg-block d-none">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="square">
                     </div>

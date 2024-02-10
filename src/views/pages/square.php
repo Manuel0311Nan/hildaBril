@@ -17,9 +17,9 @@
                 <p class="textDescription">
                 Nuestros vestidos son el resultado de una meticulosa selección de tejidos, colores y detalles, todos elegidos para asegurar que cada cliente brille con luz propia.
                 </p>
-                <a href="contacto" class="btnInstagram w-75 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
+                <a href="contacto" class="btnContacto w-75 "> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-lg-block d-none">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="square">
                     </div>
@@ -29,13 +29,13 @@
     <article class="my-2">
         <h3 class="text-center"style=" font-size: 50px">Galería</h3>
         <div class="d-flex flex-column imgGalleryDiv">
-            <div class="imgGallery img1" id="img1">
+            <div class="imgGallery img1 col-12" id="img1">
             </div>
-            <div class="imgGallery img2" id="img2">
+            <div class="imgGallery img2 col-12" id="img2">
             </div>
-            <div class="imgGallery img3" id="img3">
+            <div class="imgGallery img3 col-12" id="img3">
             </div>
-            <div class="imgGallery img4" id="img4">
+            <div class="imgGallery img4 col-12" id="img4">
             </div>
         </div>
     </article>
