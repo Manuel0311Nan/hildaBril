@@ -16,10 +16,12 @@
                 Evaluamos su personalidad y sus preferencias desde el principio para poder asesorarle de la manera mas eficiente. 
                 </p>
                 <p class="textDescription">
-                Trabajamos con cuerpotipos y toiles. Ademas contamos con maniquies ajustables a sus medidas que nos permiten trabajar con novias a distancia. 
-                Mi mision es colaborar para que el dia de la boda sea unico e inolvidable.
+                Trabajamos con cuerpotipos y toiles. Además contamos con maniquies ajustables a sus medidas que nos permiten trabajar con novias a distancia. 
                 </p>
-                <a href="contacto" class="btnInstagram w-25 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
+                <p class="textDescription text-center">
+                Mi misión es que el día de la boda sea único e inolvidable.
+                </p>
+                <a href="contacto" class="btnInstagram w-75 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">
@@ -29,7 +31,7 @@
         </div>
     </article>
     <article class="">
-        <h3 class="text-center p-5"style=" font-size: 50px">Galeria</h3>
+        <h3 class="text-center p-5"style=" font-size: 50px">Galería</h3>
         <div class="d-flex flex-column imgGalleryDiv">
             <div class="imgGallery img1" id="img1">
             </div>

@@ -12,13 +12,13 @@
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <p class="textDescription">
-                Respetamos especialmente el afecto por las piezas antiguas y que van unidos a una carga emotiva. 
+                Respetamos especialmente el afecto por las piezas antiguas y que van unidas a una carga emotiva. 
                 </p>
                 <p class="textDescription">
-                En virtud de ello alentamos a nuestras clientas a rescatar los trajes unicos del arcon de la abuela. 
+                En virtud de ello alentamos a nuestras clientas a rescatar los trajes únicos del arcón de la abuela. 
                 Para asi provechar encajes, puntillas, tejidos antiguos entre otros materiales.
                 </p>
-                <a href="contacto" class="btnInstagram w-25 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
+                <a href="contacto" class="btnInstagram w-75 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">
@@ -28,7 +28,7 @@
         </div>
     </article>
     <article class="my-2">
-        <h3 class="text-center"style=" font-size: 50px">Galeria</h3>
+        <h3 class="text-center"style=" font-size: 50px">Galería</h3>
         <div class="d-flex flex-column imgGalleryDiv">
             <div class="imgGallery img1" id="img1">
             </div>

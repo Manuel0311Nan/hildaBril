@@ -208,6 +208,28 @@ input {
   font-family: var(--fontPrimary) !important;
   text-align: start;
 }
+.titleContact{
+  font-size: 50px !important;
+}
+.divImagenPerfil{
+  height: 350px;
+}
+.imagenPerfil{
+  width: 50%;
+  height: 100%;
+}
+.textPerfil{
+  font-size:  22px !important;
+  font-family: var(--fontPrimary) !important;
+text-align: start;
+  transition: ease-in-out .5s;
+  padding: 10px;
+}
+.textPerfil:hover{
+  background-color: var(--colorPrimary);
+  cursor: text;
+  padding: 10px;
+}
 /*Contacto*/
 
 .fotoBackgroundReciclaje{
@@ -228,6 +250,7 @@ input {
 .textDescription:nth-child(2){
   text-align: end;
 }
+
 .textDescription:hover{
   background-color: var(--colorPrimary);
   cursor: text;

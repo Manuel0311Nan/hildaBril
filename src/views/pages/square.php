@@ -3,7 +3,7 @@
     <article  style="position: relative;">
     <div class="fotoBackgroundReciclaje" id="fotoPortada">
         <div class="textoFotoPortada w-100" id="textoFotoPortada" >
-            <p class="text-center titleSection" id="titleSection">Vestidos de Square</p>
+            <p class="text-center titleSection" id="titleSection">Vestidos de Noche</p>
         </div>
     </div>
     <!-- <h1 class="text-center titleSection" style=" font-size: 100px">Reciclaje de vestidos</h1> -->
@@ -12,13 +12,12 @@
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
                 <p class="textDescription">
-                Siempre pensados en destacar la figura, de acuerdo al lugar donde se celebrara el evento. 
-                El Atelier se encuentra ubicado en la  zona de Aravaca. 
+                Siempre pensados en destacar la figura, de acuerdo al lugar donde se celebre el evento. 
                 </p>
                 <p class="textDescription">
-                Solicitar cita personalizada sin costo para asesoramiento inicial.
+                Nuestros vestidos son el resultado de una meticulosa selección de tejidos, colores y detalles, todos elegidos para asegurar que cada cliente brille con luz propia.
                 </p>
-                <a href="contacto" class="btnInstagram w-100 w-md-25 ml-3"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
+                <a href="contacto" class="btnInstagram w-75 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">
@@ -28,7 +27,7 @@
         </div>
     </article>
     <article class="my-2">
-        <h3 class="text-center"style=" font-size: 50px">Galeria</h3>
+        <h3 class="text-center"style=" font-size: 50px">Galería</h3>
         <div class="d-flex flex-column imgGalleryDiv">
             <div class="imgGallery img1" id="img1">
             </div>
