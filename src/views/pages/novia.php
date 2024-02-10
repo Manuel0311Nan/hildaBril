@@ -11,12 +11,15 @@
     <article class="mt-5">
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                Nos especializamos en trajes exclusivos.
+                Evaluamos su personalidad y sus preferencias desde el principio para poder asesorarle de la manera mas eficiente. 
                 </p>
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                Trabajamos con cuerpotipos y toiles. Ademas contamos con maniquies ajustables a sus medidas que nos permiten trabajar con novias a distancia. 
+                Mi mision es colaborar para que el dia de la boda sea unico e inolvidable.
                 </p>
+                <a href="contacto" class="btnInstagram w-25 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">
@@ -25,8 +28,8 @@
             </div>
         </div>
     </article>
-    <article class="my-2">
-        <h3 class="text-center"style=" font-size: 50px">Galeria</h3>
+    <article class="">
+        <h3 class="text-center p-5"style=" font-size: 50px">Galeria</h3>
         <div class="d-flex flex-column imgGalleryDiv">
             <div class="imgGallery img1" id="img1">
             </div>

@@ -11,12 +11,14 @@
     <article class="mt-5">
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                Siempre pensados en destacar la figura, de acuerdo al lugar donde se celebrara el evento. 
+                El Atelier se encuentra ubicado en la  zona de Aravaca. 
                 </p>
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                Solicitar cita personalizada sin costo para asesoramiento inicial.
                 </p>
+                <a href="contacto" class="btnInstagram w-100 w-md-25 ml-3"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">

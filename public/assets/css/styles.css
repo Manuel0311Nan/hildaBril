@@ -176,6 +176,7 @@ li > a {
   text-decoration: none;
 }
 
+/*Contacto*/
 input {
   background-color: var(--colorPrimary) !important;
   padding: 8px;
@@ -207,6 +208,7 @@ input {
   font-family: var(--fontPrimary) !important;
   text-align: start;
 }
+/*Contacto*/
 
 .fotoBackgroundReciclaje{
   background-image: url("../images/reciclaje.jpg");
@@ -219,10 +221,18 @@ input {
 .textDescription{
   text-align: start;
   margin: auto 0;
+  font-size:  30px !important;
+  font-family: var(--fontPrimary) !important;
+  transition: ease-in-out .5s;
 }
 .textDescription:nth-child(2){
   text-align: end;
 }
+.textDescription:hover{
+  background-color: var(--colorPrimary);
+  cursor: text;
+}
+
 /* .titleSectionSticky {
   position: sticky;
   top: 0;

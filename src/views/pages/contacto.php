@@ -2,7 +2,7 @@
 <h1 class="text-center">Envíanos tu idea</h1>
 <section class="row mb-5 ">
     <article class="col-md-6">
-        <form action="sendemail.php" method="POST" class="d-flex flex-column w-75 m-auto">
+        <form action="/contacto/send" method="POST" class="d-flex flex-column w-75 m-auto">
             <h2 class="text-center">Contact Us</h2>
             <input class="inputContact" type="text" placeholder="Name" name="name" required>
             <input class="inputContact" pattern="[0-9]{9}" type="tel" name="phone" placeholder="XXXXXXXXX" required>

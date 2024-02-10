@@ -21,11 +21,11 @@
     <title><?= $datos['title'] ?></title>
 </head>
 <body>
-<header class="pos-f-t ">
-  <nav class="navbar navbar-light bg-light navColor">
+<header class="pos-f-t">
+  <nav class="navbar navbar-light bg-light navColor p-2">
     <div class="navDisposition">
-        <a href="#" class="t"><img src="<?= URL . '/public/assets/images/instagram.png' ?>" alt="instagramLogo" width="50"></a>
-        <a href="inicio"><h1 class="navFont text-center font-size-xl">Hilda Bril</h1></a>
+        <a href="#" class=""><img src="<?= URL . '/public/assets/images/instagram.png' ?>" alt="instagramLogo" width="75"></a>
+        <a href="inicio"><h1 class="navFont text-center font-size-xl mt-3">Hilda Bril</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +35,7 @@
     <div class="menuDesplegable">
       <ul class="d-flex flex-column justify-content-end align-items-end">
         <li><a href="novia"> Vestidos de novia</a></li>
-        <li><a href="square"> Vestidos de square de noche</a></li>
+        <li><a href="square"> Vestidos de noche exclusivos</a></li>
         <li><a href="reciclaje"> Reciclaje de prendas</a></li>
         <li><a href="contacto"> Contacto</a></li>
       </ul>

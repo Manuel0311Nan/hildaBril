@@ -7,7 +7,6 @@
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Instagram</h4></a>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Facebook</h4></a>
            <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Pinterest</h4></a>
-           <a href="#"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Twitter</h4></a>
         </div>
         <div class="col-lg-3 ">
         <a href="inicio"><h1 class="navFont text-center font-size-xl">Hilda Bril</h1></a>
@@ -16,8 +15,7 @@
         <h4 class="text-center" style="font-size: 50px;">Servicios</h4>
            <a href="novia"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Vestidos de novia</h4></a>
            <a href="reciclaje"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Reciclaje de vestidos</h4></a>
-           <a href="square"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Vestidos de Square</h4></a>
-           <a href="tenido"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Teñido de Telas</h4></a>
+           <a href="square"> <h4 class="apartadosFooter text-center" style="font-size: 20px;">Vestidos de Noche Exclusivos</h4></a>
         </div>
     </div>
     </footer>
@@ -39,7 +37,7 @@
             new ScrollMagic.Scene({
                 triggerElement: slides[i]
             })
-            .setPin(slides[i], { pushFollowers: (i === slides.length - 1) }) // pushFollowers será true solo para el último slide
+            .setPin(slides[i], { pushFollowers: (i === slides.length - 1) })
             .addTo(controller);
 }
 	});

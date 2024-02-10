@@ -11,12 +11,14 @@
     <article class="mt-5">
         <div class="row mx-auto">
             <div class="col-md-6 d-flex flex-column align-items-end">
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                Respetamos especialmente el afecto por las piezas antiguas y que van unidos a una carga emotiva. 
                 </p>
-                <p class="textDescription" style=" font-size: 20px">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis beatae ab accusamus explicabo ratione deleniti minima obcaecati esse ipsam. Iste omnis ullam, adipisci debitis rerum quae nihil id aperiam?
+                <p class="textDescription">
+                En virtud de ello alentamos a nuestras clientas a rescatar los trajes unicos del arcon de la abuela. 
+                Para asi provechar encajes, puntillas, tejidos antiguos entre otros materiales.
                 </p>
+                <a href="contacto" class="btnInstagram w-25 ml-3  m-auto"> <span class="textButton p-1 p-lg-0">Contact</span> </a>
             </div>
             <div class="col-md-6">
                     <div class="imagenOptions">

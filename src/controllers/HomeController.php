@@ -19,14 +19,6 @@ class HomeController extends Control
     ];
     $this->load_view('square', $datos);
   }
-  public function tenido()
-  {
-    $datos = [
-      "title" => "Teñido de telas",
-      "description" => "Galería de vestidos de square de noche"
-    ];
-    $this->load_view('tenido', $datos);
-  }
   public function reciclaje()
   {
     $datos = [
