@@ -30,7 +30,7 @@ class HomeController extends Control
   public function novia()
   {
     $datos = [
-      "title" => "Envíanos tu idea",
+      "title" => "Vestidos de novia",
       "description" => "Galería de vestidos de novia"
     ];
     $this->load_view('novia', $datos);

@@ -10,7 +10,7 @@
     </article>
     <article class="mt-5">
         <div class="row mx-auto">
-            <div class="col-md-6 d-flex flex-column align-items-end">
+            <div class="col-xl-6 d-flex flex-column align-items-end">
                 <p class="textDescription">
                 Nos especializamos en trajes exclusivos.
                 Evaluamos su personalidad y sus preferencias desde el principio para poder asesorarle de la manera mas eficiente. 
@@ -21,9 +21,9 @@
                 <p class="textDescription text-center">
                 Mi misión es que el día de la boda sea único e inolvidable.
                 </p>
-                <a href="contacto" class="btnContacto w-75 "> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
+                <a href="contacto" class="btnInstagram w-75 m-auto my-4"> <span class="textButton p-1 p-lg-0">Transmítenos tu idea</span> </a>
             </div>
-            <div class="col-md-6 d-lg-block d-none">
+            <div class="col-md-6 d-xl-block d-none">
                     <div class="imagenOptions">
                         <img class="fotosHome" src="<?= URL . '/public/assets/images/reciclaje.jpg' ?>" alt="square">
                     </div>
@@ -31,7 +31,7 @@
         </div>
     </article>
     <article class="">
-        <h3 class="text-center p-5"style=" font-size: 50px">Galería</h3>
+        <h3 class="text-center p-3"style=" font-size: 50px">Galería</h3>
         <div class="d-flex flex-column imgGalleryDiv">
             <div class="imgGallery img1" id="img1">
             </div>

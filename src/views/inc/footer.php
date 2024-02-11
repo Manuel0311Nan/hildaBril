@@ -42,7 +42,7 @@
 }
 	});
 </script>
-<script src="<?= URL . '/public/assets/js/bootstrap.min.js' ?>"></script>
-<script src="<?= URL . '/public/assets/js/functions.js' ?>"></script>
+<script defer src="<?= URL . '/public/assets/js/bootstrap.min.js' ?>"></script>
+<script defer src="<?= URL . '/public/assets/js/functions.js' ?>"></script>
 </body>
 </html>

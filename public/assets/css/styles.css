@@ -286,7 +286,7 @@ text-align: start;
   background-image: url("../images/reciclaje.jpg");
 }
 
-.btnContacto {
+.btnContacto{
   background-color: var(--colorButton);
   text-decoration: none;
   color: var(--colorPrimary);
@@ -301,7 +301,18 @@ text-align: start;
   background-color: var(--colorDetails2);
   transition: ease-in-out 0.2s;
 }
-
+.custom-select {
+  width: 100%;
+  font-family: var(--fontPrimary) !important;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--colorPrimary);
+  background-color: var(--colorButton);
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 @media (max-width: 450px) {
   .nomSeccion {
     font-size: 40px !important;
@@ -343,9 +354,19 @@ text-align: start;
     font-size:  18px !important;
     font-family: var(--fontPrimary) !important;
   }
+
+  /*Contacto*/
   .btnContacto {
     text-align: center;
     margin: 10px auto;
+  }
+  .imagenPerfil{
+    width: 100%;
+    height: 100%;
+  }
+  .textPerfil{
+    font-size:  20px !important;
+  text-align: justify;
   }
 }
 @media (min-width: 451px) and (max-width: 1080px) {
@@ -382,10 +403,29 @@ text-align: start;
     text-align: start;
     margin: 10px;
     font-size:  20px !important;
-    font-family: var(--fontPrimary) !important;
+
   }
   .btnContacto {
     text-align: center;
     margin: 10px auto;
   }
+  .imagenPerfil{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .divImagenPerfil{
+    height: 350px;
+    margin: 0 auto;
+  }
+  .textPerfil{
+    font-size:  20px !important;
+    text-align: justify;
+  }
 }
+@media (min-width: 1081px) and (max-width: 1400px) {
+  .textDescription{
+    font-size:  18px !important;
+
+  }
+  }
